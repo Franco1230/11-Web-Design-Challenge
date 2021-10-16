@@ -6,11 +6,10 @@ html, body {height: 100%;
             color: rgb(255, 255, 255);
             background-color: #1e0031}
 
-navbar {padding: 0}
-.navbar-nav li {padding-right: 40px}
+.navbar {padding: 10}
+.navbar-nav li {padding-right: 40px;}
 
-.nav-link {font-size: 20px;
-color: red}
+.nav-link {font-size: 20px}
 
 .latitude {color: white;
            font-size: 30px;
@@ -46,7 +45,7 @@ table {border-top: none}
 @media (max-width: 1920px) {
 .latitude {color: white;
            font-size: 30px;
-           background-color: #0BADA6;
+           background-color: #310052;
            padding: 10px}
 }
 
@@ -55,7 +54,7 @@ table {border-top: none}
 
 .latitude {color: white;
            font-size: 25px;
-           background-color: #0BADA6;
+           background-color: #310052;
            padding: 8px}
 
 h1 {padding: 8px;
@@ -82,7 +81,7 @@ table {font-size: 12px}
 
 .latitude {color: white;
            font-size: 20px;
-           background-color: #0BADA6;
+           background-color: #310052;
            padding: 6px}
 
 h1 {padding: 6px;
