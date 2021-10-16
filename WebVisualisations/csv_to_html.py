@@ -9,4 +9,4 @@ cities_df = cities.rename(columns = {"City_ID": "City ID",
                                      "Lng": "Longitude",
                                      "Max Temp": "Max Temp(F)",
                                      "Wind Speed": "Wind Speed(MPH)"})
-cities_df.to_html("Resources/data.html", index = False)                                     
+cities_df.to_html("Resources/weather_data.html", index = False)                                     
