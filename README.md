@@ -1,4 +1,4 @@
-# Please click [here] to inspect webpage.(https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/)
+# Please click [here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/) to inspect
 
 
 # Web Design Homework - Web Visualisation Dashboard (Latitude)
