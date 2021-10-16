@@ -1,5 +1,5 @@
-# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/) for homework
-# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/Bonus) for bonus homework
+# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/) for [Homework](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/)
+# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/Bonus) for [Bonus Homework](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/Bonus)
 
 # Web Design Homework - Web Visualisation Dashboard (Latitude)
 
