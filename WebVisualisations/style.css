@@ -9,7 +9,7 @@ html, body {height: 100%;
 navbar {padding: .1rem}
 .navbar-nav li {padding-right: 40px}
 
-.nav-link {font-size: 1.1em !important}
+.nav-link {font-size: 20px}
 
 .latitude {color: white;
            font-size: 30px;
