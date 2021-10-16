@@ -1,6 +1,3 @@
-# Please click [here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/) to inspect
-
-
 # Web Design Homework - Web Visualisation Dashboard (Latitude)
 
 ## Background
