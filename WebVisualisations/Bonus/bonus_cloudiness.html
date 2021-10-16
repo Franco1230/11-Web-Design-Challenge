@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<!-- Insert Logo -->
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.html"><span class="latitude">Latitude</a>
+		<a class="navbar-brand" href="bonus_index.html"><span class="latitude">Latitude</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
@@ -28,17 +28,17 @@
 			<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="humidity.html">Humidity</a>
-			  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-			  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item" href="bonus_max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="bonus_humidity.html">Humidity</a>
+			  <a class="dropdown-item" href="bonus_cloudiness.html">Cloudiness</a>
+			  <a class="dropdown-item" href="bonus_wind_speed.html">Wind Speed</a>
             </div>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="comparison.html">Comparison</a>
+			<a class="nav-link" href="bonus_comparison.html">Comparison</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="weather_data.html">Data</a>
+			<a class="nav-link" href="bonus_weather_data.html">Data</a>
 		  </li>
 		</ul>
 	</div>
@@ -52,47 +52,48 @@
 				<div class="col-sm-12 col-md-7">
 					<div class="box">
 						<div class="header">
-							<h1 class="text-secondary">Summary: Latitude vs X</h1>
+							<h1 class="text-secondary">Latitude vs Cloudiness</h1>
 							<hr class="light">
 						</div>
 						<div class="content">
-							<img src="Resources/assets/images/Fig1.png" class="left_shown rounded float-left" alt="Max Temperature" >
-							<p class="text-secondary">The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
-								</p>
-							<p class="text-secondary">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
-						</div>
+							<img src="Resources/assets/images/Lat_Cloud.png" class="img-fluid" alt="Cloudiness" >
+                            <p class="text-secondary">Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of cloudiness percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive pattern between cloudiness and latitude.</p>
+                        </div>
 					</div>
 				</div>
+
 				<div class="col-sm-12 col-md-5">
-						<div class="box">
-							<div class="header">
-								<h1 class="text-secondary">Visualizations</h1>
-								<hr class="light">
-							</div>
-							<div class="content-fluid">
-								<div>
-									<div class="row padding">
-										<div class="col-6">
-											<a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="Max Temp" ></a>
-										</div>
-										<div class="col-6">
-											<a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Humidity"></a>
-										</div>
-										<div class="col-6">
-											<a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="img-fluid"  alt="Cloudiness"></a>
-										</div>
-										<div class="col-6">
-											<a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class="img-fluid"  alt="Wind Speed"></a>
-										</div>
-									</div>
-								</div>
-							</div>
+					<div class="box">
+						<div class="header">
+							<h1 class="text-secondary">Visualizations</h1>
+							<hr class="light">
+						</div>
+						<div class="content-fluid">
+                            <div>
+                                <div class="row padding">
+                                    <div class="col-6">
+                                        <a href="bonus_max_temp.html"><img src="Resources/assets/images/Lat_Temp.png" class="img-fluid" alt="Max Temperature" ></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="bonus_humidity.html"><img src="Resources/assets/images/Lat_Humid.png" class="img-fluid" alt="Humidity"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="bonus_cloudiness.html"><img src="Resources/assets/images/Lat_Cloud.png" class="img-fluid"  alt="Cloudiness"></a>
+                                    </div>
+                                    <div class="col-6">
+										<a href="bonus_wind_speed.html"><img src="Resources/assets/images/Lat_Wind.png" class="img-fluid"  alt="Wind Speed"></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 	    <!-- Footer -->
 		<footer class="page-footer font-small footer-dark">
 			<div class="footer-copyright text-center py-3">© Copyright Data Bootcamp 2021

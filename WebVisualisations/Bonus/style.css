@@ -3,17 +3,18 @@
 html, body {height: 100%;
             width: 100%;
             font-family: "Poppins", sans-serif;
-            color: #222;
-            background-color: #EDEDED}
+            color: rgb(255, 255, 255);
+            background-color: #1e0031}
 
 navbar {padding: 0}
 .navbar-nav li {padding-right: 40px}
 
-.nav-link {font-size: 20px}
+.nav-link {font-size: 20px;
+color: red}
 
 .latitude {color: white;
            font-size: 30px;
-           background-color: #0BADA6;
+           background-color: #310052;
            padding: 10px}
 
 .box {margin-top: 40px;
@@ -36,7 +37,7 @@ hr.light {border-top: 1px solid #d5d5d5;
           margin-bottom: 10px}
 
 .left_shown {width:50%;
-             height:40%}
+             height:50%}
 
 table {border-top: none}
 

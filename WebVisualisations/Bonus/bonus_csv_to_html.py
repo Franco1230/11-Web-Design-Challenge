@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read CSV data
-cities = pd.read_csv("Resources/cities.csv")
+cities = pd.read_csv("Resources/cities_weather.csv")
 cities_df = pd.DataFrame(cities)
 cities_df = cities.rename(columns = {"City_ID": "City ID",
                                      "Humidity": "Humidity %",
