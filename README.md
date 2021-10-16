@@ -1,3 +1,6 @@
+# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/) for homework
+# Please [click here](https://franco1230.github.io/11-Web-Design-Challenge/WebVisualisations/Bonus) for bonus homework
+
 # Web Design Homework - Web Visualisation Dashboard (Latitude)
 
 ## Background
