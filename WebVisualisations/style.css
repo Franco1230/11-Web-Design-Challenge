@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
-
 html, body {height: 100%;
             width: 100%;
             font-family: "Poppins", sans-serif;
             color: #222;
             background-color: #EDEDED}
 
-navbar {padding: 0}
+.navbar {padding: 10}
+
 .navbar-nav li {padding-right: 40px}
 
 .nav-link {font-size: 20px}
@@ -61,7 +60,7 @@ h1 {padding: 8px;
     font-size: 25px}
 
 h2 {padding: 6px;
-   font-size: 16px}
+    font-size: 16px}
 
 h3 {font-size: 18px}
 
@@ -76,7 +75,7 @@ p {padding: 8px;
 table {font-size: 12px}
 }
   
-@media (max-width: 640px) {
+@media (max-width: 720px) {
 .dropdown-item {font-size: 10px}
 
 .latitude {color: white;
